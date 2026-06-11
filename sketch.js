@@ -136,7 +136,7 @@ function draw() {
   mx = constrain(mx, 0, width);
   my = constrain(my, 0, height);
 
-  let variacionColor = map(mx, 0, width, -40, 40); 
+  let variacionColor = map(mx, 0, width, -60, 60); 
   let escalaObj = map(my, 0, height, 0.95, 1.05);
 
   // 1. Dibujar el laberinto de fondo
